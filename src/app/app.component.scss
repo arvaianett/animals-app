@@ -1,0 +1,27 @@
+nav {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(0, 30, 83);
+    text-align: center;
+
+    li {
+      float: right;
+      padding: 1em;
+      cursor: pointer;
+      color: #FFF;
+      display: flex;
+    }
+
+    img {
+      width: 2em;
+    }
+
+    li:hover {
+      background-color: rgb(95, 139, 185);
+    }
+}
+
+}

@@ -1,0 +1,7 @@
+<nav>
+  <ul>
+    <li *ngFor="let item of navigationList" [routerLink]="item.routerLink">
+      <img [src]="item.icon">{{ item.title | uppercase }}</li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
